@@ -1,0 +1,3 @@
+F:/node-native/cmake-build-debug/CMakeFiles/node_native.dir
+F:/node-native/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/node-native/cmake-build-debug/CMakeFiles/rebuild_cache.dir

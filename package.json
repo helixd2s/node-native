@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "node-gyp": "^7.1.2"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.0.2"
+  },
+  "name": "native",
+  "version": "1.0.0",
+  "description": "Add native utilities for NodeJS types (required for Vulkan API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "install": "cmake-js compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}

@@ -1,0 +1,3 @@
+-I"F:/node-native/d because: The system cannot find the file specified" -I"F:/node-native/
+for command: ./node_modules/.bin/cmake-js print-conf" -I"F:/node-native/for command: ./node_modules/.bin/cmake-js print-configure --debug 
+in dir: F:/node-native" -I"F:/node-native/in dir: F:/node-native" 
