@@ -19,6 +19,8 @@ Float32Array.prototype.address =
 Float64Array.prototype.address = 
 ArrayBuffer.prototype.address = 
 SharedArrayBuffer.prototype.address = 
-function () {
-    return native.nativeAddress(this);
-};
+function () { return native.nativeAddress(this); }
+
+if (typeof exports != "undefined") { exports.nativeAddress = native.nativeAddress; }
+
+//export { nativeAddress };
