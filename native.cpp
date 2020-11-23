@@ -40,6 +40,10 @@ Napi::BigInt GetAddress(const Napi::CallbackInfo& info) {
         auto AB = info[0].As<Napi::ArrayBuffer>();
         address = uint64_t(AB.Data());
     }
+    if (info[0].IsExternal()) {
+        auto AB = info[0].As<Napi::External<void>>();
+        address = uint64_t(AB.Data());
+    }
 
     return Napi::BigInt::New(env, address);
 }

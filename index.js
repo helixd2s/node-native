@@ -18,6 +18,7 @@ BigInt64Array.prototype.address =
 Float32Array.prototype.address = 
 Float64Array.prototype.address = 
 ArrayBuffer.prototype.address = 
+SharedArrayBuffer.prototype.address = 
 function () {
     return native.nativeAddress(this);
 };
