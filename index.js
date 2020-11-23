@@ -23,4 +23,6 @@ function () { return native.nativeAddress(this); }
 
 if (typeof exports != "undefined") { exports.nativeAddress = native.nativeAddress; }
 
-//export { nativeAddress };
+//export function nativeAddress(...args){
+//    return native.nativeAddress(...args);
+//}
